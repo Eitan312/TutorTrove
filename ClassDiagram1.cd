@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="finalproject216303628.MainActivity" Collapsed="true">
+    <Position X="2.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEEAAAgAAgAIAAAAAAAgDAAgAABAEAAABAAgAA=</HashCode>
+      <FileName>Activities\MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Android.App.Activity" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="finalproject216303628.AddSubjectsActivity" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAACAAAAAAAAACAAAAAAAACgCCIgIAAIAAAgCAAAAA=</HashCode>
+      <FileName>Activities\AddSubjectsActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="finalproject216303628.AddWorkHoursActivity" Collapsed="true">
+    <Position X="2.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAgAxABCAQBCEQgAAEAGAYCgCAAnB4cgAACkEs24A8=</HashCode>
+      <FileName>Activities\AddWorkHoursActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="finalproject216303628.AssignLessonActivity" Collapsed="true">
+    <Position X="2.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAA0EBJhGCQFAAAgAABAASQCojAIsACAgBACkECDggA=</HashCode>
+      <FileName>Activities\AssignLessonActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="finalproject216303628.ShowWorkHoursActivity" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwIgABAhKAQBCAAAAAEAAAAAgSAAkAAQgAASgAQAgf8=</HashCode>
+      <FileName>Activities\ShowWorkHoursActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="finalproject216303628.SignUpActivity" Collapsed="true">
+    <Position X="13.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SEAwCEEwAVCBAEAIACAKAAAD4OAujgAAhMoAgAoIAkg=</HashCode>
+      <FileName>Activities\SignUpActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="finalproject216303628.UpdateUserInfo" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAVAEAQARAACABEBAgACEAEgDgpiCgABEAAwQMAEwg=</HashCode>
+      <FileName>Activities\UpdateUserInfo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="finalproject216303628.ViewRatingActivity" Collapsed="true">
+    <Position X="20.5" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAQAAAAAAAAgAAAAAAAAACAIAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Activities\ViewRatingActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
