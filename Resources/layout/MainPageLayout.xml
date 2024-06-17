@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36594a">
+    <TextView
+        android:id="@+id/headerTv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Welcome "
+        android:textSize="25dp"
+        android:fontFamily="serif"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Best Teachers:"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/bestLl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Math Teachers:"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/mathLl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Physics Teachers:"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/physicsLl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Chemistry Teachers:"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/chemLl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Computer Science Teachers:"
+                android:textSize="20dp"
+                android:fontFamily="serif"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="left"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:id="@+id/csLl"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

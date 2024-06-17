@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+	  android:id="@+id/MainPageMenuBtn"
+      android:showAsAction="always"
+      android:title="Main Page"/>
+
+	<item
+	  android:id="@+id/UpdateWorkHoursMenuBtn"
+      android:showAsAction="always"
+      android:title="Update Teacher Info"/>
+
+	<item
+		  android:id="@+id/ShowWorkHoursMenuBtn"
+		  android:showAsAction="always"
+		  android:title="Show Work Hours"/>
+
+	<item
+		  android:id="@+id/UpdateInfoMenuBtn"
+		  android:showAsAction="always"
+		  android:title="Update User Info"/>
+
+	<item
+		  android:id="@id/ProfileMenuBtn"
+		  android:showAsAction="always"
+		  android:title="Profile"/>
+
+	<item
+		  android:id="@id/logoutMenuBtn"
+		  android:showAsAction="always"
+		  android:title="Logout">
+
+	</item>
+
+</menu>

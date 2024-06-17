@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#36594a">
+    <EditText
+        android:id="@+id/etUpdatePass"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="serif"
+        android:hint="Enter Pass"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:id="@+id/submitPassBtn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:background="@drawable/buttonstyle"/>
+    </LinearLayout>
+</LinearLayout>

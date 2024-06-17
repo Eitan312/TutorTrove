@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#36594a">
+
+    <LinearLayout
+        android:id="@+id/errorLl"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textSize="30dp"
+            android:fontFamily="serif"
+            android:text="Must Be Connected To The \n Internet To Use The App!"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/mainLl"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:layout_width="320dp"
+            android:layout_height="250dp"
+            android:background="@drawable/logo"/>
+        <TextView
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="20dp"
+            android:fontFamily="serif"
+            android:text="Hello And Welcome To Tutor Trove! \n Login Or Sign Up To Start Your Journey!"/>
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:id="@+id/LoginPageBtn"
+                android:layout_marginRight="50dp"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/buttonstyle"/>
+            <Button
+                android:id="@+id/SignUpPageBtn"
+                android:gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="Sign Up"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="@drawable/buttonstyle"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+</LinearLayout>

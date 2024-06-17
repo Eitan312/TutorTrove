@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="#36594a">
+
+    <EditText
+        android:id="@+id/etAddReply"
+        android:hint="Description"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"/>
+
+    <Button
+            android:layout_gravity="center"
+            android:id="@+id/saveReplyBtn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:text="Add"
+            android:textAllCaps="false"
+            android:textSize="16dp"
+            android:background="@drawable/buttonstyle"/>
+</LinearLayout>
